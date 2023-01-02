@@ -1,0 +1,26 @@
+<aura:component>
+	<table Style="border: 1px solid black ; background-color : red">
+       <tr Style="border: 1px solid black ; background-color : blue">
+         <th Style="border: 1px solid black"> Studets</th>
+        <th Style="border: 1px solid black"> Roll Number</th>
+        <th Style="border: 1px solid black"> Total Marks</th>
+        <th Style="border: 1px solid black"> Obtained Marks</th>
+        <th Style="border: 1px solid black"> Result</th>
+           </tr>
+        <tr>
+      
+        <td Style="border: 1px solid black">Imran</td>
+        <td Style="border: 1px solid black">MECH001</td>
+        <td Style="border: 1px solid black">150</td>
+        <td Style="border: 1px solid black">50</td>
+        <td Style="border: 1px solid black">Fail</td>
+              </tr>
+        <tr>
+        <td Style="border: 1px solid black">Kashif</td>
+        <td Style="border: 1px solid black">MECH002</td>
+        <td Style="border: 1px solid black">150</td>
+        <td Style="border: 1px solid black">100</td>
+        <td Style="border: 1px solid black">pass</td>
+            </tr>
+    </table>
+</aura:component>

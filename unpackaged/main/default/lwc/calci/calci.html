@@ -1,0 +1,13 @@
+<template>
+    <div>
+        <lightning-input label="First Number" name="fnumber" value={firstnumber} placeholder="Enter First Number" onchange={onchnageaction}></lightning-input>
+        <lightning-input label="Second Number" name="snumber" value={secondnumber} placeholder="Enter Second Number" onchange={onchnageaction}></lightning-input>
+        <lightning-input label="Result" read-only="true" value={result}></lightning-input>
+        <lightning-button label="Addition" name="addtion" variant="Destructive" onclick={onclickaction}></lightning-button> &nbsp;
+        <lightning-button label="Substraction" name="substraction" variant="Destructive" onclick={onclickaction}></lightning-button> &nbsp;
+        <lightning-button label="Multiplication" name="multiplication" variant="Destructive" onclick={onclickaction}></lightning-button> &nbsp;
+        <lightning-button label="Division" name="division" variant="Destructive" onclick={onclickaction}></lightning-button> &nbsp;
+        <lightning-button label="Percetage" name="percentage" variant="Destructive" onclick={onclickaction}></lightning-button> &nbsp;
+        <lightning-button label="Square" name="square" variant="Destructive" onclick={onclickaction}></lightning-button> &nbsp;
+    </div> 
+</template>
